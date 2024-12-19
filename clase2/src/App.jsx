@@ -1,5 +1,10 @@
+import NavBar from "./NavBar"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
-    return <h1>Hola, estamos en la clase 2</h1>;
+    return (
+        <div><NavBar /> </div>
+    )
 
 }
 
